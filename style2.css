@@ -1,0 +1,169 @@
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@media (max-width: 432px){
+    .contact__sec{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .contact__tel{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 440px){
+    .header__sec{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .header__but{
+        margin: 5px;
+    }
+}
+
+@media (max-width: 290px){
+    .contact__sec{
+        max-width: none;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background: #689CD2;
+    color: #fff;
+}
+
+.header__sec{
+    display: flex;
+    align-items: center;
+}
+
+
+img 
+{
+	border-radius: 50%;
+	transition: transform 0.5s;
+    border: solid;
+    border-color: #183790;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background: #689CD2;
+    color: #fff;
+}
+
+.contact__sec{
+    display: flex;
+    align-items: center;
+}
+
+.contact__tel
+{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.header__but {
+    width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background: #4676d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: solid;
+    border-color: #183790;
+}
+
+.main{
+    display: flex;
+    padding-top: 200px;
+    padding-left: 600px;
+    padding-right: 600px;
+    position:fixed;
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 86px;
+    text-align: center;
+}
+
+.buttons
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.but{
+    width: 100%px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    margin: 5px;
+    border-radius: 20px;
+    background: #4676d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 2rem;
+    cursor: pointer;
+    border: solid;
+    border-color: #183790;
+}
+
+@media (max-width: 1444px){
+    .main{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 462px){
+    .main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .header__but{
+        font-size: 1rem;
+    }
+
+    .but{
+        font-size: 1.2rem;
+    }
+
+    .contact__tel{
+        font-size: 1rem;
+    }
+}
